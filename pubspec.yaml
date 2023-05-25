@@ -1,0 +1,25 @@
+name: flutter_deep_linking
+description: A Flutter sample showing off deep linking
+publish_to: 'none'
+version: 0.2.0
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+
+dependencies:
+  collection: ^1.15.0
+  cupertino_icons: ^1.0.2
+  firebase: ^9.0.3
+  flutter:
+    sdk: flutter
+  fluttertoast: ^8.2.1
+  path_to_regexp: ^0.4.0
+  uni_links: ^0.5.1
+  url_launcher: ^6.1.11
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
